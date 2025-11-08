@@ -70,5 +70,14 @@ body {
   z-index: 1;
 }
 
+#img_foto{
+  position: absolute;
+  top: 250px;
+  left: 100px;
+  width: 600px;
+  height: 600px;
+  z-index: 2;
+}
+
 
   
