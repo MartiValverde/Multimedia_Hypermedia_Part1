@@ -1,0 +1,74 @@
+
+/* Add font files for Playfair Display */
+@font-face {
+  font-family: 'Playfair Display';
+  src: local('Playfair Display'), local('PlayfairDisplay'),
+       url('fonts/playfair-display.woff2') format('woff2'),
+       url('fonts/playfair-display.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  --font: "Playfair Display";
+}
+
+body {
+  font-family: var(--font), serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+.Pantalla{
+  width: 1920px;
+  height: 1080px;
+  color: lightblue;
+  z-index: 0;
+}
+
+.text-normal li {
+  font-size: 24px;
+  color: #000000;
+}
+
+.text-normal p {
+  font-size: 24px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.text-Blanc p {
+  font-size: 64px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+#Barra_superior{
+  position: absolute;
+  width: 1920px;
+  height: 200px;
+  background-color: #3F59AF;
+  z-index: 0;
+}
+
+#Onada_top{
+  position: absolute;
+  top: 0px;
+  width: 1920px;
+  height: 200px;
+
+  z-index: 1;
+}
+
+#Onada_bottom{
+  position: absolute;
+  top: 850px;;
+  width: 1700px;
+  height: 200px;
+  z-index: 1;
+}
+
+
+  
