@@ -92,5 +92,20 @@ body {
   z-index: 2 ; 
 }
 
+.correu,.linkedin,.twitter{
+  position: absolute;
+  Right: 150px; 
+  z-index: 2 ;
+}
+.correu{
+  top: 50px;
+}
+.linkedin{
+  top: 90px;
+}
+.twitter{
+  top: 130px;
+}
+
 
   
