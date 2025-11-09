@@ -52,6 +52,7 @@ body {
 
 #Barra_superior{
   position: absolute;
+  top: 0px;
   width: 1920px;
   height: 200px;
   background-color: #3F59AF;
@@ -89,24 +90,46 @@ body {
   position: absolute;
   top: 50px;
   left: 150px; 
-  z-index: 2 ; 
+  z-index: 2; 
 }
 
-.correu,.linkedin,.twitter{
+.correu, .linkedin, .twitter {
   position: absolute;
-  Right: 150px; 
-  width: 300px;
+  right: 150px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 12px;
   height: auto;
-  z-index: 2 ;
 }
-.correu{
-  top: 50px;
+
+.correu { 
+  top: 35px; 
 }
-.linkedin{
-  top: 90px;
+
+.linkedin { 
+  top: 85px; 
 }
-.twitter{
-  top: 130px;
+
+.twitter {
+   top: 125px; 
+}
+
+.correu img, .linkedin img, .twitter img {
+  display: block;
+}
+
+.correu p, .linkedin p, .twitter p {
+  margin: 0;
+}
+
+.blocs {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 500px;
+  height: auto;
+  z-index: 2;
 }
 
 
