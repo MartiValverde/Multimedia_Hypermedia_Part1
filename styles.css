@@ -54,14 +54,15 @@
     background-color: #3F59AF;
     z-index: 0;
   }
+  
 
 #Onada_top{
   position: absolute;
   top: 0px;
   width: 1920px;
   height: 200px;
-
   z-index: 1;
+  visibility: hidden;
 }
 
 #Onada_bottom{
@@ -79,12 +80,12 @@
   z-index: 2;
 }
 
-#nom_gran{
+#Nom_gran{
   position: absolute;
   top: 35px; 
   left: 235px;
   height: 130px;
-  z-index: 2;
+  z-index: 2 !important;
 }
 
 .correu, .linkedin, .twitter {
