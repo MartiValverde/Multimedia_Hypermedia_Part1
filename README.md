@@ -3,6 +3,7 @@
     Website: https://martivalverde.github.io/Sessio2.html
 
     User profile:
+
         The User persona that I created for this CV is very loosely based on myself, combining both real and fake qualifications. That means that I didn't have to put much effort on creating a persona, since it's just basically me.
 
     Info aquitecture:
